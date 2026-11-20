@@ -38,6 +38,11 @@ check("R2: паспорта эмерджентных v1.3 (6)", len(D.get("r2_pa
 new5 = [p for p in P if str(p.get("id")) in ("1152", "1153", "1154")]
 check("R5: новые паспорта v1.4 (3)", len(new5) == 3 and all(p.get("verdict") == "ACCEPTED_v14_R5" for p in new5))
 check("сверка AI Index зафиксирована", bool(D.get("ai_index_verification", {}).get("confirmed")))
+pdf = D.get("ai_index_verification", {}).get("pdf_full", {})
+check("AI Index сверён полным текстом PDF (425 стр.), сниппеты заменены",
+      pdf.get("confirmed") is True and pdf.get("pages") == 425
+      and "ОПРОВЕРГНУТ" in pdf.get("checks", {}).get("280%_вакансий", ""),
+      f"78%→88% подтверждён · +280% опровергнут (замена +1,062%) · {pdf.get('date', '—')}")
 
 rep = json.load(open("data/report.json", encoding="utf-8"))
 agree, total = rep.get("agree", 0), rep.get("total", 0)
