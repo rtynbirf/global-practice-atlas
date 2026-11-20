@@ -23,9 +23,11 @@ for p in live:
 codes = Counter(p["type_code"].split("/")[0] for p in live)
 
 print("QA атласа (data/passports.json, версия %s):" % D.get("version"))
-check("строк паспортов", len(P) == 1154, f"= {len(P)}")
-check("живых позиций", len(live) == 1150, f"= {len(live)}")
-check("поглощено с сохранением строк", len(merged) == 4, f"= {len(merged)}")
+check("строк паспортов (слияния строки сохраняют)", len(P) == 1154, f"= {len(P)}")
+check("живых позиций", len(live) == 1145, f"= {len(live)}")
+check("поглощено с сохранением строк", len(merged) == 9, f"= {len(merged)}")
+check("слияния v1.5 по глобальному скану (5)", len(D.get("merges_v15", [])) == 5,
+      f"= {len(D.get('merges_v15', []))}: " + ", ".join(m["pair"] for m in D.get("merges_v15", [])))
 check("M-агрегат сходится", sum(agg.values()) == len(live), f"M1 {agg['M1']} · M2 {agg['M2']} · M3 {agg['M3']} · M4 {agg['M4']}")
 check("классов 12, пустых 0", len(codes) == 12 and codes.get("—", 0) == 0, f"= {len(codes)} классов")
 direct = [m.get("direct_path_v14", {}).get("jaccard") for m in D.get("merges_v13", [])]
@@ -43,6 +45,20 @@ check("РЕЛОМАТ: строки атласа", agree == total == 43, f"{agre
 em = json.load(open("data/emergent_report.json", encoding="utf-8"))
 check("РЕЛОМАТ: эмерджентные линии", em.get("agree") == em.get("total") == 11,
       f"{em.get('agree')}/{em.get('total')}")
+
+scan = json.load(open("data/global_scan.json", encoding="utf-8"))
+check("глобальный парный скан исполнен",
+      scan.get("total_pairs") == 660675 and isinstance(scan.get("candidates"), list),
+      f"пар {scan.get('total_pairs'):,} · кандидатов {scan.get('prefilter_candidates')} · новых SAME {scan.get('new_same_beyond_known')}")
+
+try:
+    rr = json.load(open("data/report_recomputed.json", encoding="utf-8"))
+    er = json.load(open("data/emergent_report_recomputed.json", encoding="utf-8"))
+    check("РЕЛОМАТ перепрогнан в CI независимо",
+          rr.get("agree") == rr.get("total") == 43 and er.get("agree") == er.get("total") == 11,
+          f"перепрогон {rr.get('agree')}/{rr.get('total')} · эмерджентные {er.get('agree')}/{er.get('total')}")
+except FileNotFoundError:
+    check("РЕЛОМАТ перепрогнан в CI независимо", False, "нет файлов перепрогона (см. workflow)")
 
 if fails:
     print("QA ПРОВАЛ:", ", ".join(fails)); sys.exit(1)

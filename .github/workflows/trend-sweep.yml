@@ -1,0 +1,21 @@
+name: trend-sweep
+on:
+  schedule:
+    - cron: '0 9 1 * *'   # ежемесячно, 1-го числа
+  workflow_dispatch:
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: R5-фильтр сидов против каталога
+        run: python3 tools/trend_sweep.py
+      - name: коммит диффа
+        run: |
+          git config user.name "atlas-sweep-bot"
+          git config user.email "rtynbirf@users.noreply.github.com"
+          git add data/trend_sweep_report.json
+          git diff --cached --quiet || git commit -m "тренд-обход $(date -u +%Y-%m-%d): дифф каталога против сидов"
+          git push

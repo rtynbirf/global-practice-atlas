@@ -1,0 +1,262 @@
+{
+ "total_pairs": 660675,
+ "live": 1150,
+ "prefilter_candidates": 30,
+ "verdicts": {
+  "IS-A": 4,
+  "SAME": 5,
+  "RELATED": 21
+ },
+ "new_same_beyond_known": 5,
+ "new_same": [
+  {
+   "jaccard": 1.0,
+   "a": "597 Personal Data Stores",
+   "b": "877 Personal Data Stores",
+   "automat": "SAME",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "499 Resilience Engineering",
+   "b": "971 Resilience Engineering",
+   "automat": "SAME",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "269 Systems Thinking",
+   "b": "326 Systems Thinking",
+   "automat": "SAME",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "231 Federated Governance",
+   "b": "962 Federated Governance",
+   "automat": "SAME",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "111 Bayesian Experimental Design",
+   "b": "714 Bayesian Experimental Design",
+   "automat": "SAME",
+   "known_merge": false
+  }
+ ],
+ "candidates": [
+  {
+   "jaccard": 1.0,
+   "a": "995 Continuous Assurance",
+   "b": "1133 Continuous AI Assurance",
+   "automat": "IS-A",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "597 Personal Data Stores",
+   "b": "877 Personal Data Stores",
+   "automat": "SAME",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "499 Resilience Engineering",
+   "b": "971 Resilience Engineering",
+   "automat": "SAME",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "376 Speech-to-Text",
+   "b": "377 Text-to-Speech",
+   "automat": "IS-A",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "269 Systems Thinking",
+   "b": "326 Systems Thinking",
+   "automat": "SAME",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "258 Peer Learning",
+   "b": "317 Peer-to-Peer Learning",
+   "automat": "IS-A",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "231 Federated Governance",
+   "b": "962 Federated Governance",
+   "automat": "SAME",
+   "known_merge": false
+  },
+  {
+   "jaccard": 1.0,
+   "a": "111 Bayesian Experimental Design",
+   "b": "714 Bayesian Experimental Design",
+   "automat": "SAME",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.75,
+   "a": "079 Capability-Based Security",
+   "b": "861 Capability-Based Security Architecture",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "962 Federated Governance",
+   "b": "1114 Federated Data Governance",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "901 Systems-of-Systems Engineering",
+   "b": "908 Modular Systems Engineering",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "794 Knowledge Versioning",
+   "b": "795 Semantic Versioning of Knowledge",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "722 Type Theory",
+   "b": "723 Homotopy Type Theory",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "641 Systems Biology",
+   "b": "652 Developmental Systems Biology",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "595 Composable Infrastructure",
+   "b": "866 Composable Data Infrastructure",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "590 Causal Discovery",
+   "b": "896 Causal Discovery Experiments",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "589 Causal Inference",
+   "b": "752 Counterfactual Causal Inference",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "473 Universal Design",
+   "b": "951 Universal Interaction Design",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "300 Commons Governance",
+   "b": "964 Commons-Based Governance",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "251 Participatory Design",
+   "b": "965 Participatory Systems Design",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "231 Federated Governance",
+   "b": "1114 Federated Data Governance",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "230 Polycentric Governance",
+   "b": "961 Polycentric Systems Governance",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "107 Systematic Reviews",
+   "b": "108 Living Systematic Reviews",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "1015 AI Red Teaming",
+   "b": "1094 AI Red Teaming Standards",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "1001 Foundation Models",
+   "b": "1002 Multimodal Foundation Models",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "073 Model Red Teaming",
+   "b": "1015 AI Red Teaming",
+   "automat": "IS-A",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.67,
+   "a": "041 Data Mesh",
+   "b": "1113 Data Mesh Governance",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.6,
+   "a": "430 Long-Duration Energy Storage",
+   "b": "855 Long-Duration Thermal Storage",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.6,
+   "a": "177 Hardware-in-the-Loop Testing",
+   "b": "884 Software-in-the-Loop Testing",
+   "automat": "RELATED",
+   "known_merge": false
+  },
+  {
+   "jaccard": 0.6,
+   "a": "177 Hardware-in-the-Loop Testing",
+   "b": "883 Hardware-in-the-Loop Experimentation",
+   "automat": "RELATED",
+   "known_merge": false
+  }
+ ],
+ "note": "диагностический скан: слияния не исполнялись; новые SAME — только сигнал для решения хозяина",
+ "date": "2026-11-20"
+}

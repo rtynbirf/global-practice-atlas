@@ -1,0 +1,118 @@
+{
+ "date": null,
+ "seeds": 18,
+ "covered_exact": 0,
+ "covered_family": 18,
+ "candidates": [],
+ "rows": [
+  {
+   "name": "Agent2Agent (A2A) Protocol",
+   "source": "Gartner/протоколы 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ agent2agent (a2a) protocol (Jaccard 0.11)"
+  },
+  {
+   "name": "Large Quantitative Models",
+   "source": "Gartner вандгард 2026-2027",
+   "verdict": "покрыт семейством",
+   "detail": "≈ large quantitative models (Jaccard 0.12)"
+  },
+  {
+   "name": "Speech Reasoning Models",
+   "source": "Gartner вандгард 2026-2027",
+   "verdict": "покрыт семейством",
+   "detail": "≈ speech-to-text (Jaccard 0.14)"
+  },
+  {
+   "name": "AI-Native Development Platforms",
+   "source": "Gartner 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ ai-native development (Jaccard 0.20)"
+  },
+  {
+   "name": "AI Supercomputing Platforms",
+   "source": "Gartner 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ ai supercomputing (Jaccard 0.12)"
+  },
+  {
+   "name": "Confidential Computing",
+   "source": "Gartner 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ confidential computing (Jaccard 0.22)"
+  },
+  {
+   "name": "Multiagent Systems",
+   "source": "Gartner 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ assurance of ai systems (Jaccard 0.14)"
+  },
+  {
+   "name": "AI Context Platforms",
+   "source": "Gartner вандгард",
+   "verdict": "покрыт семейством",
+   "detail": "≈ context-aware computing (Jaccard 0.09)"
+  },
+  {
+   "name": "Agent Coding Harness",
+   "source": "Gartner вандгард",
+   "verdict": "покрыт семейством",
+   "detail": "≈ creative coding (Jaccard 0.10)"
+  },
+  {
+   "name": "AI Agent Identity",
+   "source": "Gartner вандгард",
+   "verdict": "покрыт семейством",
+   "detail": "≈ self-sovereign identity (Jaccard 0.12)"
+  },
+  {
+   "name": "World Models",
+   "source": "Gartner 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ world models for robotics (Jaccard 0.17)"
+  },
+  {
+   "name": "AI Security Platform",
+   "source": "Deloitte 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ platform cooperativism (Jaccard 0.12)"
+  },
+  {
+   "name": "Physical AI",
+   "source": "Deloitte 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ physical ai (Jaccard 0.14)"
+  },
+  {
+   "name": "AI for Scientific Discovery",
+   "source": "McKinsey 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ ai for scientific discovery (Jaccard 0.30)"
+  },
+  {
+   "name": "Agentic Software Development",
+   "source": "McKinsey 2026",
+   "verdict": "покрыт семейством",
+   "detail": "≈ participatory ai development (Jaccard 0.12)"
+  },
+  {
+   "name": "Machine Identity Management",
+   "source": "Gartner FAQ 2027",
+   "verdict": "покрыт семейством",
+   "detail": "≈ distributed identity management (Jaccard 0.22)"
+  },
+  {
+   "name": "Autonomous Software Engineering",
+   "source": "Gartner вандгард",
+   "verdict": "покрыт семейством",
+   "detail": "≈ ai software engineering (Jaccard 0.20)"
+  },
+  {
+   "name": "Advanced Reasoning Models",
+   "source": "Gartner FAQ 2027",
+   "verdict": "покрыт семейством",
+   "detail": "≈ abductive reasoning (Jaccard 0.10)"
+  }
+ ],
+ "note": "автослияние запрещено: кандидаты — только сигнал (правило хозяина)"
+}

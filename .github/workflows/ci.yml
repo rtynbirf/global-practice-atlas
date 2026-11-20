@@ -5,5 +5,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: QA атласа v1.4 — данные и автомат
+      - name: checkout relomat — канон-автомат
+        uses: actions/checkout@v4
+        with:
+          repository: rtynbirf/relomat
+          ref: main
+          path: relomat
+      - name: РЕЛОМАТ исполняется здесь, по данным атласа — независимо
+        run: |
+          cp data/pairs.json relomat/data/pairs.json
+          python3 relomat/relomat.py data/pairs.json --out data/report_recomputed.json
+          cd relomat && python3 emergent.py
+          cd .. && cp relomat/emergent_report.json data/emergent_report_recomputed.json
+      - name: QA атласа v1.4 — данные + независимый перепрогон
         run: python3 qa_atlas.py

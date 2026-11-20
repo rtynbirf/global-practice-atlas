@@ -1,0 +1,23 @@
+{
+  "note": "Сиды тренд-обхода: имена практик/трендов от любого источника (Gartner/Deloitte/McKinsey/протоколы/агенты). Каждый месяц CI прогоняет их через R5-фильтр каталога; КАНДИДАТ-НОВОЕ — сигнал хозяину, не автослияние.",
+  "seeds": [
+    {"name": "Agent2Agent (A2A) Protocol", "source": "Gartner/протоколы 2026"},
+    {"name": "Large Quantitative Models", "source": "Gartner вандгард 2026-2027"},
+    {"name": "Speech Reasoning Models", "source": "Gartner вандгард 2026-2027"},
+    {"name": "AI-Native Development Platforms", "source": "Gartner 2026"},
+    {"name": "AI Supercomputing Platforms", "source": "Gartner 2026"},
+    {"name": "Confidential Computing", "source": "Gartner 2026"},
+    {"name": "Multiagent Systems", "source": "Gartner 2026"},
+    {"name": "AI Context Platforms", "source": "Gartner вандгард"},
+    {"name": "Agent Coding Harness", "source": "Gartner вандгард"},
+    {"name": "AI Agent Identity", "source": "Gartner вандгард"},
+    {"name": "World Models", "source": "Gartner 2026"},
+    {"name": "AI Security Platform", "source": "Deloitte 2026"},
+    {"name": "Physical AI", "source": "Deloitte 2026"},
+    {"name": "AI for Scientific Discovery", "source": "McKinsey 2026"},
+    {"name": "Agentic Software Development", "source": "McKinsey 2026"},
+    {"name": "Machine Identity Management", "source": "Gartner FAQ 2027"},
+    {"name": "Autonomous Software Engineering", "source": "Gartner вандгард"},
+    {"name": "Advanced Reasoning Models", "source": "Gartner FAQ 2027"}
+  ]
+}
