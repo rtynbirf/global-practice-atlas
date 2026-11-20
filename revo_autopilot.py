@@ -10,7 +10,7 @@
 import hashlib, json, os, re, subprocess
 
 try:
-    CFG = json.loads(r'''{"name": "global-practice-atlas", "num": 165, "school": "НОВОСТРОЙ РОЯ", "desc": "Глобальный атлас практик 2026: 1145 паспортов, двойное кодирование, канон типизированных отношений v1.2, досье трендов и эмерджентные кандидаты", "topics": [], "releases": 0, "palette": {"bg": "#2A1D12", "bg2": "#3A2A1B", "ink": "#F1E8D8", "gold": "#D4AF37", "gold2": "#E8C868", "dim": "#B79F7E", "accent": "#1F5B8B"}}''')
+    CFG = json.loads(r'''{"name": "global-practice-atlas", "num": 70, "school": "НОВОСТРОЙ РОЯ", "desc": "Глобальный атлас практик 2026: 1145 паспортов, двойное кодирование, канон типизированных отношений v1.2, досье трендов и эмерджентные кандидаты", "topics": [], "releases": 0, "palette": {"bg": "#2A1D12", "bg2": "#3A2A1B", "ink": "#F1E8D8", "gold": "#D4AF37", "gold2": "#E8C868", "dim": "#B79F7E", "accent": "#1F5B8B"}}''')
 except Exception:
     CFG = {"name": "REVO", "num": 0, "school": "", "desc": "", "topics": [], "releases": 0,
            "palette": dict(bg="#EFE6CF", bg2="#F6EFDC", ink="#241C10", gold="#9A7B23",
