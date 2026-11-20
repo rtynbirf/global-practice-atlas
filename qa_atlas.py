@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""QA атласа v1.4 — самостоятельные проверки данных (запускается в CI).
+"""QA атласа v1.6 (16 проверок) — самостоятельные проверки данных (запускается в CI).
 Читает data/passports.json (1154 строки) и результаты автомата
 (data/report.json, data/emergent_report.json). Ненулевой код — на провал."""
 import json, re, sys

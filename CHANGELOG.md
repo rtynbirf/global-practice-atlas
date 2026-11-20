@@ -43,5 +43,5 @@
 - Прямой URL найден: hai.stanford.edu/assets/files/ai_index_report_2026.pdf — оба «остаточных пункта» закрыты, open_fields по AI Index = 0.
 - №1146 Agent Observability & Tracing: «78% за 2024» подтверждён дословно — 88% в 2025 с 78% в 2024 (Figure 4.3.1); OSWorld 12%→~66% подтверждён; «fail roughly one in three attempts» подтверждён.
 - №1150 Agentic Workforce Upskilling: сниппет «+280%» ОПРОВЕРГНУТ полным текстом — истинное число: 151 → 15,217 вакансий, +1,062% (Figure 4.4.6, Lightcast); доля AI-agent навыков 0.69% → 18.90%, +2,643% (Figure 4.4.7). Факт заменён первоисточником.
-- ai_index_verification.pdf_full: confirmed, page 425, 4 проверки; qa_atlas — 15-я проверка «AI Index сверён полным текстом PDF».
+- ai_index_verification.pdf_full: confirmed, page 425, 4 проверки; qa_atlas — 16 проверок (PDF-сверка среди них; «AI Index сверён полным текстом» — 12-я).
 - Правило зафиксировано: сниппет-уровень больше не используется — только полный текст или честная пометка.
