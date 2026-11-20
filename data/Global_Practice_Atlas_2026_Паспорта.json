@@ -1,8 +1,8 @@
 {
  "title": "Global Practice Atlas 2026 — паспорта практик",
- "version": "v1.2",
+ "version": "v1.4",
  "date": "2026-11-20",
- "count": 1151,
+ "count": 1154,
  "schema": [
   "ID",
   "Ссылка V2",
@@ -28108,10 +28108,11 @@
    "key_relations": "RELATED:014,1004",
    "rel_src": "Реестр домена A",
    "audit_relations": "RELATED:014,1004",
-   "description": "Критическое расширение домена A по обзорам 2025–2026",
+   "description": "Операционное управление жизненным циклом ML-моделей: версионирование, мониторинг, CI/CD для моделей",
    "facts": "Versioning, monitoring, CI/CD for models",
    "open_fields": "Механизм действия: требует заполнения (проход верификации U5) · Метрики эффективности: требует заполнения · Ограничения и риски: требует заполнения · Стоимость внедрения: требует заполнения · Примеры внедрения: требует заполнения",
-   "provenance": "Реестр домена A (аудит)"
+   "provenance": "Реестр домена A (аудит)",
+   "description_source": "Первоисточник реестра: REGISTRY_DOMAIN_A_FULL.json, ID=1003: Notes «Versioning, monitoring, CI/CD for models», Type «Практика»"
   },
   {
    "id": "1004",
@@ -28136,10 +28137,11 @@
    "key_relations": "IS-A:1003 specialization",
    "rel_src": "Реестр домена A",
    "audit_relations": "IS-A:1003 specialization",
-   "description": "Критическое расширение домена A по обзорам 2025–2026",
+   "description": "Операционное управление большими языковыми моделями — специализация MLOps",
    "facts": "LLM-specific ops",
    "open_fields": "Механизм действия: требует заполнения (проход верификации U5) · Метрики эффективности: требует заполнения · Ограничения и риски: требует заполнения · Стоимость внедрения: требует заполнения · Примеры внедрения: требует заполнения",
-   "provenance": "Реестр домена A (аудит)"
+   "provenance": "Реестр домена A (аудит)",
+   "description_source": "Первоисточник реестра: REGISTRY_DOMAIN_A_FULL.json, ID=1004: Notes «LLM-specific ops», Relations «IS-A:1003 specialization»"
   },
   {
    "id": "1005",
@@ -28332,10 +28334,11 @@
    "key_relations": "RELATED:1012",
    "rel_src": "Реестр домена A",
    "audit_relations": "RELATED:1012",
-   "description": "Критическое расширение домена A по обзорам 2025–2026",
+   "description": "Интерпретация через изучение внутренних механизмов нейронных сетей",
    "facts": "Internal mechanisms",
    "open_fields": "Механизм действия: требует заполнения (проход верификации U5) · Метрики эффективности: требует заполнения · Ограничения и риски: требует заполнения · Стоимость внедрения: требует заполнения · Примеры внедрения: требует заполнения",
-   "provenance": "Реестр домена A (аудит)"
+   "provenance": "Реестр домена A (аудит)",
+   "description_source": "Первоисточник реестра: REGISTRY_DOMAIN_A_FULL.json, ID=1011: Notes «Internal mechanisms», Type «Метод», Subdomain «Trust»"
   },
   {
    "id": "1012",
@@ -32201,13 +32204,13 @@
    "rel_src": "emergent_pairs.json — верификация РЕЛОМАТОМ 7/7",
    "maturity": "Deployed (растущая практика)",
    "m_code": "M2",
-   "maturity_src": "AI Index 2026 (тренд-источник; сниппет — сверка с полным текстом при доступе)",
+   "maturity_src": "AI Index 2026, оф. страница (сверка v1.4)",
    "description": "Инструментальная наблюдаемость многошаговых агентных систем: трассировка цепочек вызовов,tool-use, состояний и ошибок — SRE-практики, перенесённые на агентов; дополняет ассуранс-верификацию до деплоя наблюдаемостью в рантайме",
    "description_source": "Досье трендов 2026 (v1.3, R2)",
    "domain": "A",
    "subdomain": "Ops / наблюдаемость",
    "issue": "Эмерджентные кандидаты v1.3 (2026-11-20)",
-   "evidence": "агенты выполняют многошаговые задачи в 4–6 п.п. от человеческих бейслайнов [AI Index 2026]",
+   "evidence": "агенты: OSWorld 12% → ~66% успеха задач за год; ~1 из 3 попыток на структурных бенчмарках неудачна; SWE-bench Verified 60% → почти 100% [AI Index 2026, оф. страница]",
    "priority": "Высокий",
    "verdict": "ACCEPTED_v13_R2",
    "status": "принят v1.3: паспорт написан (R2)",
@@ -32215,7 +32218,7 @@
    "provenance": "v1.3 прогон 2026-11-20 (правило R2 по готовому списку досье)",
    "audit_relations": "",
    "key_relations": "070, 988 · связи: IS-A: №070; COMPLEMENTARY: №988",
-   "open_fields": "полная строковая сверка трендовых чисел с PDF AI Index 2026 (425 стр.)",
+   "open_fields": "остаточные пункты PDF (78% за 2024): только в полном тексте (425 стр.)",
    "merge_target": "",
    "v2_domain": "",
    "v2_maturity_raw": ""
@@ -32232,7 +32235,7 @@
    "rel_src": "emergent_pairs.json — верификация РЕЛОМАТОМ 7/7",
    "maturity": "Deployed (растущая практика)",
    "m_code": "M2",
-   "maturity_src": "Gartner 2026 (тренд-источник; сниппет — сверка с полным текстом при доступе)",
+   "maturity_src": "Gartner Top Strategic Technology Trends 2026 (оф. статья, досье v1.2); сверка AI Index не применима",
    "description": "Программные платформы политик, контроля и аудита ИИ-систем; по канону — инструмент для практики управления (№1014): инструмент ≠ метод, не сливать",
    "description_source": "Досье трендов 2026 (v1.3, R2)",
    "domain": "A",
@@ -32263,7 +32266,7 @@
    "rel_src": "emergent_pairs.json — верификация РЕЛОМАТОМ 7/7",
    "maturity": "Deployed (растущая практика)",
    "m_code": "M2",
-   "maturity_src": "Gartner 2026 (тренд-источник; сниппет — сверка с полным текстом при доступе)",
+   "maturity_src": "Gartner Top Strategic Technology Trends 2026 (оф. статья, досье v1.2); сверка AI Index не применима",
    "description": "Операционная дисциплина защиты от дезинформации и фрода; дополняет технику детекции синтетического контента (№1041): техника + дисциплина, каждая самостоятельна",
    "description_source": "Досье трендов 2026 (v1.3, R2)",
    "domain": "A",
@@ -32294,7 +32297,7 @@
    "rel_src": "emergent_pairs.json — верификация РЕЛОМАТОМ 7/7",
    "maturity": "Deployed (растущая практика)",
    "m_code": "M2",
-   "maturity_src": "Gartner 2026 (тренд-источник; сниппет — сверка с полным текстом при доступе)",
+   "maturity_src": "Gartner Top Strategic Technology Trends 2026 (оф. статья, досье v1.2); сверка AI Index не применима",
    "description": "Дисциплина подготовки семантически размеченных, AI-ready данных под агентные системы; самостоятельная дисциплина, смежная с семантическим слоем знаний (№43)",
    "description_source": "Досье трендов 2026 (v1.3, R2)",
    "domain": "A",
@@ -32325,13 +32328,13 @@
    "rel_src": "emergent_pairs.json — верификация РЕЛОМАТОМ 7/7",
    "maturity": "Deployed (растущая практика)",
    "m_code": "M2",
-   "maturity_src": "AI Index 2026 (тренд-источник; сниппет — сверка с полным текстом при доступе)",
+   "maturity_src": "AI Index 2026, оф. страница (сверка v1.4); вакансии — сниппет",
    "description": "Организационная модель массового развития персонала под работу с агентными системами; смежна с практикой управления ИИ (№1014), но про людей, а не про политики",
    "description_source": "Досье трендов 2026 (v1.3, R2)",
    "domain": "A",
    "subdomain": "Workforce",
    "issue": "Эмерджентные кандидаты v1.3 (2026-11-20)",
-   "evidence": "упоминания навыка Agentic AI в вакансиях: +280% за год [AI Index 2026]",
+   "evidence": "88% организаций используют ИИ в 2025 [AI Index 2026, оф. страница]; +280% вакансий Agentic AI — на оф. странице НЕ найдено, остаётся сниппет-уровнем",
    "priority": "Высокий",
    "verdict": "ACCEPTED_v13_R2",
    "status": "принят v1.3: паспорт написан (R2)",
@@ -32339,7 +32342,7 @@
    "provenance": "v1.3 прогон 2026-11-20 (правило R2 по готовому списку досье)",
    "audit_relations": "",
    "key_relations": "1014 · связи: RELATED: №1014",
-   "open_fields": "полная строковая сверка трендовых чисел с PDF AI Index 2026 (425 стр.)",
+   "open_fields": "число +280% вакансий: сверка только по полному PDF (на оф. странице отсутствует)",
    "merge_target": "",
    "v2_domain": "",
    "v2_maturity_raw": ""
@@ -32356,13 +32359,13 @@
    "rel_src": "emergent_pairs.json — верификация РЕЛОМАТОМ 7/7",
    "maturity": "Experimental (экспериментальная)",
    "m_code": "M3",
-   "maturity_src": "AI Index 2026 (тренд-источник; сниппет — сверка с полным текстом при доступе)",
+   "maturity_src": "AI Index 2026, оф. страница (сверка v1.4)",
    "description": "Разновидность ИИ-красной команды (№1015), специализированная на агентных системах: многоходовые атаки, tool-use и identity-атаки; формирующаяся практика",
    "description_source": "Досье трендов 2026 (v1.3, R2)",
    "domain": "A",
    "subdomain": "Security",
    "issue": "Эмерджентные кандидаты v1.3 (2026-11-20)",
-   "evidence": "агенты близки к человеческим бейслайнам в кибербезопасности [AI Index 2026]",
+   "evidence": "агенты: OSWorld 12% → ~66% успеха задач за год; ~1 из 3 попыток на структурных бенчмарках неудачна; SWE-bench Verified 60% → почти 100% [AI Index 2026, оф. страница]",
    "priority": "Высокий",
    "verdict": "ACCEPTED_v13_R2",
    "status": "принят v1.3: паспорт написан (R2)",
@@ -32371,6 +32374,99 @@
    "audit_relations": "",
    "key_relations": "1015 · связи: IS-A: №1015",
    "open_fields": "полная строковая сверка трендовых чисел с PDF AI Index 2026 (425 стр.)",
+   "merge_target": "",
+   "v2_domain": "",
+   "v2_maturity_raw": ""
+  },
+  {
+   "id": "1152",
+   "v2_ref": "—",
+   "name_en": "Agent2Agent (A2A) Protocol",
+   "name_ru": "Протокол агент-агент (A2A)",
+   "type": "Протокол",
+   "type_code": "PROT",
+   "type_code_src": "Мировые тренды 2026 (R5)",
+   "typed_rel": "COMPLEMENTARY: №1048; RELATED: №001",
+   "rel_src": "emergent_pairs.json — верификация РЕЛОМАТОМ",
+   "maturity": "Deployed (растущая практика)",
+   "m_code": "M2",
+   "maturity_src": "A2A Specification + отраслевые публикации 2026; сниппет/статья — сверка с полным текстом при доступе",
+   "description": "Открытый протокол взаимодействия агентов между собой: обнаружение возможностей, обмен карточками агентов, координация задач; дополняет MCP (№1048), который соединяет агента с инструментами и данными — два уровня интероперабельности, не дубли",
+   "description_source": "Обход мировых трендов v1.4 (R5)",
+   "domain": "A",
+   "subdomain": "Agent interoperability",
+   "issue": "Эмерджентные кандидаты v1.4 (2026-11-20)",
+   "evidence": "A2A в производственной эксплуатации у 150+ организаций (2026) [A2A Specification + отраслевые публикации 2026]",
+   "priority": "Высокий",
+   "verdict": "ACCEPTED_v14_R5",
+   "status": "принят v1.4: паспорт написан (R5)",
+   "facts": "Тренд: A2A в производственной эксплуатации у 150+ организаций (2026); источник: https://a2a-protocol.dev/specification",
+   "provenance": "v1.4 прогон 2026-11-20 (правило R5: только отсутствующее в каталоге)",
+   "audit_relations": "",
+   "key_relations": "1048, 001 · связи: COMPLEMENTARY: №1048; RELATED: №001",
+   "open_fields": "сверка с полным текстом источника при доступе",
+   "merge_target": "",
+   "v2_domain": "",
+   "v2_maturity_raw": ""
+  },
+  {
+   "id": "1153",
+   "v2_ref": "—",
+   "name_en": "Large Quantitative Models",
+   "name_ru": "Большие количественные модели",
+   "type": "Технология",
+   "type_code": "TECH",
+   "type_code_src": "Мировые тренды 2026 (R5)",
+   "typed_rel": "IS-A: №1001",
+   "rel_src": "emergent_pairs.json — верификация РЕЛОМАТОМ",
+   "maturity": "Experimental (экспериментальная)",
+   "m_code": "M3",
+   "maturity_src": "Gartner Top Strategic Technology Trends (вангард 2026–2027); сниппет/статья — сверка с полным текстом при доступе",
+   "description": "Класс больших моделей, оптимизированный под количественное рассуждение: числовые данные, прогнозирование, научные и инженерные расчёты; разновидность больших (foundation) моделей (№1001), выделенная по типу задачи",
+   "description_source": "Обход мировых трендов v1.4 (R5)",
+   "domain": "A",
+   "subdomain": "Quantitative AI",
+   "issue": "Эмерджентные кандидаты v1.4 (2026-11-20)",
+   "evidence": "Gartner включил LQM в «вангард» трендов [Gartner Top Strategic Technology Trends (вангард 2026–2027)]",
+   "priority": "Высокий",
+   "verdict": "ACCEPTED_v14_R5",
+   "status": "принят v1.4: паспорт написан (R5)",
+   "facts": "Тренд: Gartner включил LQM в «вангард» трендов; источник: https://www.gartner.com/en/articles/top-technology-trends-2026",
+   "provenance": "v1.4 прогон 2026-11-20 (правило R5: только отсутствующее в каталоге)",
+   "audit_relations": "",
+   "key_relations": "1001 · связи: IS-A: №1001",
+   "open_fields": "сверка с полным текстом источника при доступе",
+   "merge_target": "",
+   "v2_domain": "",
+   "v2_maturity_raw": ""
+  },
+  {
+   "id": "1154",
+   "v2_ref": "—",
+   "name_en": "Speech Reasoning Models",
+   "name_ru": "Модели рассуждения над речью",
+   "type": "Технология",
+   "type_code": "TECH",
+   "type_code_src": "Мировые тренды 2026 (R5)",
+   "typed_rel": "RELATED: №376",
+   "rel_src": "emergent_pairs.json — верификация РЕЛОМАТОМ",
+   "maturity": "Experimental (экспериментальная)",
+   "m_code": "M3",
+   "maturity_src": "Gartner Top Strategic Technology Trends (вангард 2026–2027); сниппет/статья — сверка с полным текстом при доступе",
+   "description": "Модели, выполняющие рассуждение непосредственно над аудио-речью (причины, намерения, контекст), а не только транскрипцию или синтез; каталог покрывает речь как ввод/вывод (№374–377), рассуждение над речью — самостоятельная категория",
+   "description_source": "Обход мировых трендов v1.4 (R5)",
+   "domain": "A",
+   "subdomain": "Speech AI",
+   "issue": "Эмерджентные кандидаты v1.4 (2026-11-20)",
+   "evidence": "Gartner включил SRM в «вангард» трендов [Gartner Top Strategic Technology Trends (вангард 2026–2027)]",
+   "priority": "Высокий",
+   "verdict": "ACCEPTED_v14_R5",
+   "status": "принят v1.4: паспорт написан (R5)",
+   "facts": "Тренд: Gartner включил SRM в «вангард» трендов; источник: https://www.gartner.com/en/articles/top-technology-trends-2026",
+   "provenance": "v1.4 прогон 2026-11-20 (правило R5: только отсутствующее в каталоге)",
+   "audit_relations": "",
+   "key_relations": "376 · связи: RELATED: №376",
+   "open_fields": "сверка с полным текстом источника при доступе",
    "merge_target": "",
    "v2_domain": "",
    "v2_maturity_raw": ""
@@ -32578,5 +32674,220 @@
   "MEMBER-OF": "член семейства направлений",
   "INSTANCE": "конкретный экземпляр общего принципа",
   "FRAMEWORK": "рамка/стандарт для частных случаев"
+ },
+ "merges_v13": [
+  {
+   "pair": "V2:918→№915",
+   "merged": true,
+   "basis": "имя=✓ роли=✓ Jaccard формулировок=0.62 ≥ 0.5",
+   "name_ok": true,
+   "roles_ok": true,
+   "jaccard": 0.62,
+   "stub": false
+  },
+  {
+   "pair": "V2:935→№1011",
+   "merged": true,
+   "basis": "имя=✓ роли=✓ формулировка цели — заглушка реестра; класс согласован (H/M×M), аудит-реестр: NEW без противоречащих связей",
+   "name_ok": true,
+   "roles_ok": true,
+   "jaccard": 0.0,
+   "stub": true,
+   "direct_path_v14": {
+    "jaccard": 0.5,
+    "confirmed": true,
+    "source": "REGISTRY_DOMAIN_A_FULL.json, ID=1011: Notes «Internal mechanisms», Type «Метод», Subdomain «Trust»"
+   }
+  },
+  {
+   "pair": "V2:941→№1003",
+   "merged": true,
+   "basis": "имя=✓ роли=✓ формулировка цели — заглушка реестра; класс согласован (P×P), аудит-реестр: NEW без противоречащих связей",
+   "name_ok": true,
+   "roles_ok": true,
+   "jaccard": 0.0,
+   "stub": true,
+   "direct_path_v14": {
+    "jaccard": 0.62,
+    "confirmed": true,
+    "source": "REGISTRY_DOMAIN_A_FULL.json, ID=1003: Notes «Versioning, monitoring, CI/CD for models», Type «Практика»"
+   }
+  },
+  {
+   "pair": "V2:942→№1004",
+   "merged": true,
+   "basis": "имя=✓ роли=✓ формулировка цели — заглушка реестра; класс согласован (P×P), аудит-реестр: NEW без противоречащих связей",
+   "name_ok": true,
+   "roles_ok": true,
+   "jaccard": 0.0,
+   "stub": true,
+   "direct_path_v14": {
+    "jaccard": 0.83,
+    "confirmed": true,
+    "source": "REGISTRY_DOMAIN_A_FULL.json, ID=1004: Notes «LLM-specific ops», Relations «IS-A:1003 specialization»"
+   }
+  }
+ ],
+ "r2_passports": [
+  {
+   "id": 1146,
+   "name_en": "Agent Observability & Tracing",
+   "m_code": "M2",
+   "basis": "тренд-источник AI Index 2026; отсутствие в каталоге проверено; строка верифицирована РЕЛОМАТОМ"
+  },
+  {
+   "id": 1147,
+   "name_en": "AI Governance Platforms",
+   "m_code": "M2",
+   "basis": "тренд-источник Gartner 2026; отсутствие в каталоге проверено; строка верифицирована РЕЛОМАТОМ"
+  },
+  {
+   "id": 1148,
+   "name_en": "Disinformation Security",
+   "m_code": "M2",
+   "basis": "тренд-источник Gartner 2026; отсутствие в каталоге проверено; строка верифицирована РЕЛОМАТОМ"
+  },
+  {
+   "id": 1149,
+   "name_en": "AI-Ready Data Governance",
+   "m_code": "M2",
+   "basis": "тренд-источник Gartner 2026; отсутствие в каталоге проверено; строка верифицирована РЕЛОМАТОМ"
+  },
+  {
+   "id": 1150,
+   "name_en": "Agentic Workforce Upskilling",
+   "m_code": "M2",
+   "basis": "тренд-источник AI Index 2026; отсутствие в каталоге проверено; строка верифицирована РЕЛОМАТОМ"
+  },
+  {
+   "id": 1151,
+   "name_en": "Agentic AI Red Teaming",
+   "m_code": "M3",
+   "basis": "тренд-источник AI Index 2026; отсутствие в каталоге проверено; строка верифицирована РЕЛОМАТОМ"
+  }
+ ],
+ "r3_resolutions": [
+  {
+   "id": "002",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "006",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "010",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "014",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "016",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "018",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "021",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "024",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "025",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "027",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "037",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "038",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "039",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "043",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "048",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "054",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "065",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "074",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "082",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "084",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  },
+  {
+   "id": "089",
+   "ok": false,
+   "basis": "позиция не найдена в паспортах"
+  }
+ ],
+ "ai_index_verification": {
+  "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+  "date": "2026-11-20",
+  "confirmed": [
+   "88% организаций (2025)",
+   "генеративный ИИ 53% популяции за 3 года",
+   "OSWorld 12% → ~66%",
+   "~1/3 попыток неудачна",
+   "SWE-bench Verified 60% → ~100%"
+  ],
+  "not_found_on_page": [
+   "78% (2024)",
+   "+280% вакансий Agentic AI",
+   "формулировка «4–6 п.п.» — заменена на OSWorld-числа"
+  ],
+  "note": "полный PDF (425 стр.) в песочнице недоступен; сверка уровня официальной страницы"
  }
 }

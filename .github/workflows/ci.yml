@@ -1,0 +1,9 @@
+name: atlas-qa
+on: [push, pull_request]
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: QA атласа v1.4 — данные и автомат
+        run: python3 qa_atlas.py
