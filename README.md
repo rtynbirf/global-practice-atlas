@@ -1,3 +1,19 @@
+<div align="center">
+
+<a href="https://github.com/rtynbirf/global-practice-atlas"><img src="banner.png" width="100%" alt="global-practice-atlas — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+<!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
+<div align="center">
+  <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы global-practice-atlas в каноне ORNAMENTAL MYTHO-REALISM: орнаментальная решётка, медальон-миф, строение файлов, лексикон — по фактическому контенту" />
+</div>
+
+| ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
+|---:|---:|---:|---|---:|
+| 22 | 4 | 5 | 2026-11-20 | 0 |
+<!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
 # Глобальный атлас практик 2026 (Global Practice Atlas)
 
 **ВЕРСИЯ:** v1.5 · **ДАТА:** 2026-11-20 · **ПАСПОРТОВ:** 1154 (1145 живых; 9 поглощены с сохранением строк) · **ЗРЕЛОСТЬ:** 100% (M1–M4)
