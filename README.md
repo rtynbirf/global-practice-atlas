@@ -4,6 +4,14 @@
 
 </div>
 
+<!--ФОРЖ:МУЗА:НАЧАЛО-->
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/global-practice-atlas@main/repo-muse.svg" width="100%" alt="Муза global-practice-atlas: мастерская КУЗНЯ ПОЛИМАТ, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
+  <br/>
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/global-practice-atlas@main/forge-divider.svg" width="62%" alt="делитель мастерской КУЗНЯ ПОЛИМАТ" />
+</div>
+<!--ФОРЖ:МУЗА:КОНЕЦ-->
+
 <!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
 <div align="center">
   <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы global-practice-atlas в каноне ORNAMENTAL MYTHO-REALISM: орнаментальная решётка, медальон-миф, строение файлов, лексикон — по фактическому контенту" />
@@ -11,8 +19,20 @@
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 43 | 8 | 73 | 2026-11-28 | 0 |
+| 43 | 7 | 1 | 2026-11-28 | 2 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+# global-practice-atlas
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/rtynbirf/global-practice-atlas@main/.github/social-preview.png" alt="global-practice-atlas" width="100%"></p>
+
+<div align="center">
+
+<a href="https://github.com/rtynbirf/global-practice-atlas"><img src="banner.png" width="100%" alt="global-practice-atlas — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+
 
 # Глобальный атлас практик 2026 (Global Practice Atlas)
 
@@ -70,3 +90,5 @@ MERGE присваивается только после SAME-подтвержд
 ## Лицензия
 
 MIT
+
+<!--ФОРЖ:ПОДВАЛ-->
