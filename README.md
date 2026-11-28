@@ -19,8 +19,20 @@
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 45 | 8 | 75 | 2026-11-28 | 0 |
+| 45 | 7 | 1 | 2026-11-28 | 2 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+# global-practice-atlas
+
+<div align="center">
+
+<a href="https://github.com/rtynbirf/global-practice-atlas"><img src="banner.png" width="100%" alt="global-practice-atlas — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+
+
+
 
 # global-practice-atlas
 
